@@ -5,7 +5,7 @@ import Register from './components/Register';
 import Profile from './pages/Profile';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider } from './context/AuthContext';
-import "./index.css";
+import './css/styles.css';
 
 const App: React.FC = () => {
     return (
