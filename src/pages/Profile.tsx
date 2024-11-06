@@ -9,7 +9,7 @@ const Profile: React.FC = () => {
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const response = await axios.get('http://localhost:8080/auth/profile', {
+                const response = await axios.get(`https://ia-04-be-production.up.railway.app/auth/profile`, {
                     headers: {
                         Authorization: `Bearer ${token}`
                     }
