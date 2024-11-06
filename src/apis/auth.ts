@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'ia-04-be-production.up.railway.app';
+const API_URL = 'https://ia-04-be-production.up.railway.app';
 
 export const register = (email: string, password: string) => {
     return axios.post(
